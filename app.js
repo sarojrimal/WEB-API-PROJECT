@@ -10,8 +10,7 @@ app.use(express.static(publicDirectory));
 app.set('view engine','hbs')
 
 app.get('/', function(req, res){
-    res.render('aa',{name:'Name : Saroj Rimal', phone:'Phone : 1234', address:'Address : dillibazar', email:'Email : zaan@gmail.com'});
-
+    res.render('home');
  })
 
  app.listen(5000);

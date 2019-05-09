@@ -1,12 +1,135 @@
-body{
-    background:gray;
-}
-h1{
-    text-align: center;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
-img{
+body
+{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+.top-nav-bar
+{
+    height: 81px;
+    top: 0;
+    position: sticky;
+    background: rgb(189, 190, 192);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index: 2;
+}
 
-float: right;
+.logo
+{
+    height: 80px;
+       margin: 5px 10px;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid red !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    background: orange !important;
+    border: 1px solid orange !important;
+    margin: 8.5px 10px 3px 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
 
 }
+
+.search-box
+{
+    display: inline-flex;
+    width: 50%;
+    height: 50px;
+}
+.fa-search
+{
+    color: #fff;
+}
+.menu-bar
+{
+    width: 50%;
+    height: 27px;
+    float: right;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    float: right;
+}
+.menu-bar ul li
+{
+border-left: 1px solid #fff;
+list-style-type: none;
+margin-top: 5px;
+padding: 15px 35px;
+text-align: center;
+background-color: orange;
+cursor: pointer;
+
+}
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-shopping-basket
+{
+    margin-right: 5px;
+     
+}
+@media only screen and (max-width: 980px)
+{
+    .top-nav-bar
+    {
+        height: 118px;
+        border-bottom: 0;
+    }
+    .search-box
+    {
+        width: 100%;
+    }
+    .menu-bar
+    {
+        width: 100%;
+    }
+    .menu-bar ul 
+    {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .menu-bar ul li 
+    {
+        height: 57px;
+        width: 100px;
+    }
+}
+
+
+.container 
+{
+        background: rgb(189, 190, 192);
+        margin-top: 100px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-block-start: 2px;
+        margin-block-end: 2px;
+    }
+       
